@@ -12,6 +12,8 @@ a_m ≠ 0 (since it's the highest degree term, ensuring the polynomial is of deg
 This representation shows that a polynomial of degree m is a sum of terms, where each term is a coefficient multiplied by a power of x. The highest power of x is m, and the powers decrease by 1 for each subsequent term until we reach the constant term c, which has no x.
 The task is to find the constant term i.e, ‘c’ of the polynomial with the given roots. However, the points are not provided directly but in a specific format.
 You need to read the input from the test cases provided in JSON format.
+
+code: Java
 import java.math.BigInteger;
 
 public class Main {
